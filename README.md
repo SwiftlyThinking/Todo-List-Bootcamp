@@ -29,8 +29,8 @@ open TodoListBootcamp.xcodeproj
 
 ### Screenshots
 <p align="leading">
-  <img src="https://github.com/SwiftlyThinking/Todo-List-Bootcamp/assets/159685600/9961d629-bed8-4a18-9985-b1235b0b15b3" width="220" alt="Image 1">
-  <img src="https://github.com/SwiftlyThinking/Todo-List-Bootcamp/assets/159685600/07a474ef-9e81-4eef-8816-7feef050a4fd" width="220" alt="Image 2">
-  <img src="https://github.com/SwiftlyThinking/Todo-List-Bootcamp/assets/159685600/c542c76d-a895-47a3-9369-bdcc64b06c7e" width="220" alt="Image 1">
-  <img src="https://github.com/SwiftlyThinking/Todo-List-Bootcamp/assets/159685600/9b733bdf-7828-40d1-867c-d33d4166d568" width="220" alt="Image 2">
+  <img src="https://github.com/SwiftlyThinking/Todo-List-Bootcamp/assets/159685600/9961d629-bed8-4a18-9985-b1235b0b15b3" width="170" alt="Image 1">
+  <img src="https://github.com/SwiftlyThinking/Todo-List-Bootcamp/assets/159685600/07a474ef-9e81-4eef-8816-7feef050a4fd" width="170" alt="Image 2">
+  <img src="https://github.com/SwiftlyThinking/Todo-List-Bootcamp/assets/159685600/c542c76d-a895-47a3-9369-bdcc64b06c7e" width="170" alt="Image 1">
+  <img src="https://github.com/SwiftlyThinking/Todo-List-Bootcamp/assets/159685600/9b733bdf-7828-40d1-867c-d33d4166d568" width="170" alt="Image 2">
 </p>
