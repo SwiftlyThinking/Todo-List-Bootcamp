@@ -13,37 +13,26 @@ struct ListView: View {
     
     var body: some View {
         ZStack {
-            if vm.tasks.isEmpty {
+            if tasksIsEmpty() {
                 NoTasksView()
             } else {
-                List {
-                    ForEach(vm.tasks) { task in
-                        ListRowView(task: task)
-                            .onTapGesture {
-                                withAnimation(.default) {
-                                    vm.updateTask(task: task)
-                                }
-                            }
-                    }
-                    .onDelete(perform: vm.deleteTask)
-                    .onMove(perform: vm.moveTask)
-                }
-                .listStyle(.plain)
+                tasksList
             }
         }
+        .transition(.opacity)
+        .animation(.easeIn, value: tasksIsEmpty())
         .navigationTitle("Todo List 📝")
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
                 EditButton()
+                    .opacity(tasksIsEmpty() ? 0 : 1)
+                    .animation(.easeIn, value: tasksIsEmpty())
             }
             
             ToolbarItem(placement: .topBarTrailing) {
-                NavigationLink {
-                    AddView()
-                } label: {
-                    Text("Add")
-                }
-                
+                addButton
+                    .opacity(tasksIsEmpty() ? 0 : 1)
+                    .animation(.easeIn, value: tasksIsEmpty())
             }
         }
     }
@@ -54,4 +43,35 @@ struct ListView: View {
         ListView()
     }
     .environmentObject(ListViewModel())
+}
+
+extension ListView {
+    
+    private var tasksList: some View {
+        List {
+            ForEach(vm.tasks) { task in
+                ListRowView(task: task)
+                    .onTapGesture {
+                        withAnimation(.default) {
+                            vm.updateTask(task: task)
+                        }
+                    }
+            }
+            .onDelete(perform: vm.deleteTask)
+            .onMove(perform: vm.moveTask)
+        }
+        .listStyle(.plain)
+    }
+    
+    private var addButton: some View {
+        NavigationLink {
+            AddView()
+        } label: {
+            Text("Add")
+        }
+    }
+    
+    private func tasksIsEmpty() -> Bool {
+        return vm.tasks.isEmpty
+    }
 }
