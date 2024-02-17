@@ -30,7 +30,7 @@ struct ListView: View {
             
             ToolbarItem(placement: .topBarTrailing) {
                 NavigationLink {
-                    // destination...
+                    AddView()
                 } label: {
                     Text("Add")
                 }

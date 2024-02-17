@@ -12,6 +12,7 @@
 		0743189C2B80B50C002DE610 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0743189B2B80B50C002DE610 /* Preview Assets.xcassets */; };
 		074318A92B80B8C8002DE610 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074318A82B80B8C8002DE610 /* ListView.swift */; };
 		074318AB2B80BAFB002DE610 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074318AA2B80BAFB002DE610 /* ListRowView.swift */; };
+		074318AD2B80BCD2002DE610 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074318AC2B80BCD2002DE610 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0743189B2B80B50C002DE610 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		074318A82B80B8C8002DE610 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		074318AA2B80BAFB002DE610 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		074318AC2B80BCD2002DE610 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				074318A82B80B8C8002DE610 /* ListView.swift */,
 				074318AA2B80BAFB002DE610 /* ListRowView.swift */,
+				074318AC2B80BCD2002DE610 /* AddView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074318AD2B80BCD2002DE610 /* AddView.swift in Sources */,
 				074318A92B80B8C8002DE610 /* ListView.swift in Sources */,
 				074318942B80B50A002DE610 /* TodoListBootcampApp.swift in Sources */,
 				074318AB2B80BAFB002DE610 /* ListRowView.swift in Sources */,
