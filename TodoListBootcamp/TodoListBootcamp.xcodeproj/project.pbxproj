@@ -16,6 +16,7 @@
 		074318B02B80BF95002DE610 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074318AF2B80BF95002DE610 /* TaskModel.swift */; };
 		074318B32B80C4BC002DE610 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074318B22B80C4BC002DE610 /* ListViewModel.swift */; };
 		074318B52B80D6C9002DE610 /* NoTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074318B42B80D6C9002DE610 /* NoTasksView.swift */; };
+		074318B72B80E43B002DE610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074318B62B80E43B002DE610 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		074318AF2B80BF95002DE610 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		074318B22B80C4BC002DE610 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		074318B42B80D6C9002DE610 /* NoTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoTasksView.swift; sourceTree = "<group>"; };
+		074318B62B80E43B002DE610 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				074318AA2B80BAFB002DE610 /* ListRowView.swift */,
 				074318AC2B80BCD2002DE610 /* AddView.swift */,
 				074318B42B80D6C9002DE610 /* NoTasksView.swift */,
+				074318B62B80E43B002DE610 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074318B72B80E43B002DE610 /* LaunchScreen.storyboard in Resources */,
 				0743189C2B80B50C002DE610 /* Preview Assets.xcassets in Resources */,
 				074318982B80B50C002DE610 /* Assets.xcassets in Resources */,
 			);
@@ -322,6 +326,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -358,6 +363,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
